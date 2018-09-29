@@ -645,13 +645,15 @@ li.dropdown ul.dropdown-menu li a{
 }
 
 .mainmenu .navbar-nav li li a {
-    color: #999999;
+    color: white;
+/*cambio de color opcio blanco*/
     padding: 5px;
 }
 
 .mainmenu .navbar-left li.active > a {
     background: none;
-    color: #17a9a8;
+    color: white;
+    /*cambio de color de home*/
     border-bottom: 2px solid;
 }
 
