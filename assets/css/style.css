@@ -48,7 +48,14 @@ Version      : 1.0
 * ----------------------------------------------------------------------------------------
 */
 
+
 @import url('jquery.fancybox.min.css');
+@font-face {
+    font-family: moderna;
+    src: url(fonts/moderna.TTF);
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+}
 
 body {
     font-size: 14px;
@@ -68,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Rubik", sans-serif;
+    font-family: "moderna", sans-serif;
 }
 
 a {
@@ -189,7 +196,7 @@ a.button:hover {
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 25px;
-    font-family: "Rubik" , sans-serif;
+    font-family: "moderna" , sans-serif;
     display: inline-block;
 }
 
@@ -231,7 +238,15 @@ a:hover {
 
 
 /*== >Title separators ====== */
+.fontModerna{
+    font-family: moderna;
+    /*src: url(/fonts/moderna.TTF);*/
 
+}
+.MenuText{
+    font-family: moderna;
+    font-size: 48px;
+}
 .title-separator-outer {
     overflow: hidden;
     color: #17a9a8;
@@ -2418,7 +2433,7 @@ a.more-portfolio {
 ---------------------------------------*/
 
 .inner-page-htop {
-    border-bottom: 1px solid #009fe9;
+    /*border-bottom: 1px solid #009fe9;*/
 }
 
 
@@ -2457,6 +2472,7 @@ a.more-portfolio {
     height: 100px;
     left: 0;
     position: absolute;
+    /*font-family: 'moderna';*/
     width: 100%;
 }
 
@@ -2470,7 +2486,7 @@ a.more-portfolio {
     padding: 12px 0px;
     text-transform: capitalize;
     text-shadow: 5px 8px 10px rgba(0,0,0,0.51);
-    font-family: 'Arimo', sans-serif;
+    /*font-family: 'moderna', sans-serif;*/
     font-weight: bold;
 }
 
@@ -5633,12 +5649,14 @@ footer .widget ul.instagram-list li {
     background-color: transparent;
     font-size: 24px;
     font-weight: 500;
+     font-family: 'moderna';
     color: #777;
 }
 
 .gallery-menu button.active,
 .gallery-menu button:hover {
     background-color: transparent;
+    font-family: 'moderna';
     color: #17a9a8
 }
 
